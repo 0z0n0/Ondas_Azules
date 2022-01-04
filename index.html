@@ -4,39 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/estilos/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;800&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/afaca9e51d.js" crossorigin="anonymous"></script>
-    <title>Ondas Azules</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaQ.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Document</title>
 </head>
 <body>
-    
-    <header class="header">              
-          <nav class="headerNavBar">
-              <div class="logo">
-                <a href="index.html"><img src="./img/ondasazules.png" alt="logomarca" ></a>
-              </div>
-              
-              <ul>
-                  <li><a href="index.html">Inicio</a> </li>
-                  <li><a href="about.html">Sobre nosotros</a></li>
-                  <li><a href="contact.html">Contacto</a></li>
-                  <li><a href="product.html">Productos</a></li>
-                  <li><a href="question.html">Consultas</a></li>
-              </ul>
+    <header>
+        <nav class="navbar">
+                        <!-- logo -->
+            
+            <a href="index.html"><img src="./img/ondasazules.png" class="logo" alt="ondas azules logo"></a>
 
-              <div class="socialNetwork">
-                <a href="https://www.instagram.com/ondasazules/?hl=es-la"><i class="fab fa-instagram"></i>  </a>            
-                <a href="https://www.facebook.com/ondasazulesrosario"><i class="fab fa-facebook-square"></i></a></i>
-              </div>             
-          </nav>       
+                        <!-- menu -->
+            <ul class="menu" id="menu">
+                <li><a href="index.html">Inicio</a> </li>
+                <li><a href="about.html">Sobre nosotros</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="product.html">Productos</a></li>
+                <li><a href="question.html">Consultas</a></li>
+
+                <div class="socialNetwork">
+                <li><a href="https://www.instagram.com/ondasazules/?hl=es-la" class="ig"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/ondasazulesrosario" class="fb"><i class="fab fa-facebook-square"></i></a></li>
+                </div>
+            </ul>
+                        <!-- menu hamburguesa -->
+            <div class="menu-bar">
+                <i class="fas fa-bars" id="menu-bar"></i>
+            </div>
+            
+
+        </nav>
     </header>
-    
+
     <!-- slider -->
     <main>
-      <div class="slider">
+        <div class="slider">
         <ul>
             <li><img src="./img/1.gif" alt=""></li>
             <li><img src="./img/2.jpg" alt=""></li>
@@ -45,38 +50,38 @@
         </ul>
     </div>
     </main>
-    
 
     <!-- footer --> 
-    
-    <footer class="footer">
-      <div class="footerColumnas">
-      <div class="logo">
-        <img src="./img/ondasazules.png" alt="logomarca">
-      </div>
-            <ul>
-              <li><a href="index.html">Inicio</a> </li>
-              <li><a href="about.html">Sobre nosotros</a></li>
-              <li><a href="contact.html">Contacto</a></li>
-              <li><a href="product.html">Productos</a></li>
-              <li><a href="question.html">Consultas</a></li>
-          </ul>
 
-              <ul>
-                <li><a href="#">Preguntas frecuentes</a></li>
-                <li><a href="#">Dónde estamos</a></li>
-                <li><a href="https://www.facebook.com/ondasazulesrosario">Facebook</a></li>
-                <li><a href="https://www.instagram.com/ondasazules/?hl=es-la">Instagram</a></li>
-              </ul>
-          
-        
-      </div>
-    </div>
+    <footer >
+        <div class="footer">                 
+            
+                <div class="columnaUno">
+                    <ul>
+                        <li><a href="index.html">Inicio</a> </li>
+                        <li><a href="about.html">Sobre nosotros</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                        <li><a href="product.html">Productos</a></li>
+                        <li><a href="question.html">Consultas</a></li>
+                    </ul>
+                </div>
 
-      <div class="nameDev">
-        <label for="name">Sitio creado por Alejandro Zampini</label>
-      </div>
+                <div class="columnaDos">
+                        <ul>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                        <li><a href="#">Dónde estamos</a></li>
+                        <li><a href="https://www.facebook.com/ondasazulesrosario">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/ondasazules/?hl=es-la">Instagram</a></li>
+                        </ul>
+                </div>  
 
+                <div class="nameDev">
+                    <label for="name">Sitio creado por Alejandro Zampini</label>
+                </div>
+            
+        </div>
     </footer>
+
+    <script src="js/scripts.js"></script>
 </body>
 </html>
