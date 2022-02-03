@@ -1,41 +1,9 @@
-@media only screen and (max-width: 600px) {
-
-    .navbar {
-        position: relative;
+@media only screen and (max-width: 768px) {
+    .flex-container{
+        flex-direction: column;
     }
-
+    .flex-container div{
+        flex-basis: 100%;
+    }
     
-
-    .navbar .menu-bar{
-        display: block;
-        grid-column: 8 / 9;
-        font-size: 2em;
-        cursor: pointer;
-    }
-
-    .navbar .menu{
-        position: absolute;
-        width: 100%;
-        height: 30em;
-        display: grid;
-        align-items: center;
-        background-color: #406882;
-        margin-top: 32.3em;
-        transform: translateX(175%);
-        transition: all 1s;
-        border-radius: 3em;
-        
-    }
-
-    .navbar .menu li{
-       margin-right : 1em;
-    }
-
-    .navbar .menu-toggle{
-        transform: translateX(25%);
-    }
-
-    
-
 }
-
