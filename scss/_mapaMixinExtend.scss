@@ -1,0 +1,53 @@
+/* MAPA */
+
+$mapaRedes: (facebook: #3b5998, instagram: #833AB4);
+
+@each $i, $color in $mapaRedes {
+    .#{$i}-link{
+        color: $color;
+    }
+}
+
+/* MAP GET */
+
+$consultas:(  
+    colorBG: #1a7eafda,
+    color: aliceblue,
+    espaciado: .3rem,  
+    tamMargen: 1rem,    
+);  
+
+.consulta {
+    background-color: map-get($consultas, colorBG);
+    color: map-get($consultas, color);
+    letter-spacing: map-get($consultas, espaciado);
+    margin: map-get($consultas, tamMargen);
+    padding: map-get($consultas, tamMargen);
+    border: .15rem solid rgb(46, 45, 45);
+    border-radius: 1.5rem;
+    
+} 
+
+/* EXTEND */
+.estiloParrafo{
+    text-align: center;
+    letter-spacing: .3rem;
+}
+
+.estiloTitulo {
+    @extend .estiloParrafo;
+    font-weight: bolder;
+    text-transform: uppercase;    
+}
+
+/* MIXIN */
+
+@mixin configImagen( $bgColor, $padding, $borderRadius) {
+    background-color: $bgColor;
+    padding: $padding;
+    border-radius: $borderRadius;
+}
+
+.configImagenes{
+    @include configImagen(#1a7eafda,1rem ,5rem )
+}

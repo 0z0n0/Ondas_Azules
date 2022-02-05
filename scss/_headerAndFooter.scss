@@ -1,0 +1,30 @@
+/* **** HEADER ***** */
+
+.primario{
+    background-color:  #026394;    
+}
+.navbar {
+    background-color: #026394;    
+    width: 100%;
+    
+    li {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            color: #B1D0E0;
+            cursor: pointer;
+        }
+    }    
+}
+
+ /* ***footer**** */
+
+ .pie{
+    padding-top: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    cursor: pointer;    
+}
