@@ -48,9 +48,14 @@ body {
   padding-top: 1rem;
 }
 
-footer a {
-  text-decoration: none;
+footer div ul li a {
+  text-decoration: none;  
   cursor: pointer;
+  color: dimgrey;
+}
+
+footer div ul li a:hover {
+  color: #B1D0E0;
 }
 
 .flex-container {
