@@ -4,15 +4,20 @@
     background-color: #1a7eafda;
     padding: 1.3rem;
     border: .5rem solid rgb(32, 42, 56);
-    
-}
 
-.flex-container div{
-    margin: 1rem;
+    div{
+        margin: 1rem;
     flex-basis: auto;
-    text-align: center;    
+    text-align: center; 
+    }    
 }
 
 .mapa{
     margin: 10rem 1rem 5rem 1rem;    
+}
+
+/* main--movil */
+
+.movil{
+    display: none;  
 }

@@ -7,3 +7,21 @@
     }
     
 }
+
+@media only screen and (max-width: 576px) {
+    .flex-container{
+        flex-direction: column;
+    }
+    .flex-container div{
+        flex-basis: 100%;
+    }
+
+    .carousel{
+        display: none;
+    }
+    
+    .movil{
+        display: block;
+    }
+    
+}

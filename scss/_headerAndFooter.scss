@@ -1,8 +1,6 @@
 /* **** HEADER ***** */
 
-.primario{
-    background-color:  #026394;    
-}
+
 .navbar {
     background-color: #026394;    
     width: 100%;
@@ -24,7 +22,23 @@
     padding-top: 1rem;
 }
 
-footer a {
-    text-decoration: none;
-    cursor: pointer;    
+footer{
+    div {
+        ul{
+            li {
+                a{
+                text-decoration: none;  
+                cursor: pointer;
+                color: dimgrey;
+
+                &:hover{
+                    color: #B1D0E0;
+                    }
+                }               
+            }
+        }  
+    }
 }
+
+
+

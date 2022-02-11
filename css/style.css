@@ -24,10 +24,6 @@ body {
 }
 
 /* **** HEADER ***** */
-.primario {
-  background-color: #026394;
-}
-
 .navbar {
   background-color: #026394;
   width: 100%;
@@ -49,7 +45,7 @@ body {
 }
 
 footer div ul li a {
-  text-decoration: none;  
+  text-decoration: none;
   cursor: pointer;
   color: dimgrey;
 }
@@ -79,6 +75,11 @@ footer div ul li a:hover {
 
 .mapa {
   margin: 10rem 1rem 5rem 1rem;
+}
+
+/* main--movil */
+.movil {
+  display: none;
 }
 
 /* MAPA */
