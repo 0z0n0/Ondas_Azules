@@ -14,9 +14,9 @@ html {
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.7em;
-  background-color: #B1D0E0;
+  background-color: #b1d0e0;
 }
 
 .primario {
@@ -35,7 +35,7 @@ body {
 
 .navbar li a {
   text-decoration: none;
-  color: #B1D0E0;
+  color: #b1d0e0;
   cursor: pointer;
 }
 
@@ -51,7 +51,7 @@ footer div ul li a {
 }
 
 footer div ul li a:hover {
-  color: #B1D0E0;
+  color: #b1d0e0;
 }
 
 /* Main -- Info */
@@ -78,6 +78,36 @@ footer div ul li a:hover {
   margin: 10rem 1rem 5rem 1rem;
 }
 
+/* main desktop */
+.carousel-inner {
+  position: relative;
+}
+
+.carousel-inner a {
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  top: -100px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.carousel-inner a h2 {
+  color: aliceblue;
+  font-size: 5rem;
+  font-weight: bold;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel-inner a h2:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  text-shadow: 13px 15px 37px black;
+}
+
 /* main--movil */
 .movil {
   display: none;
@@ -89,7 +119,7 @@ footer div ul li a:hover {
 }
 
 .instagram-link {
-  color: #833AB4;
+  color: #833ab4;
 }
 
 /* MAP GET */
@@ -106,7 +136,9 @@ footer div ul li a:hover {
 /* EXTEND */
 .estiloParrafo, .estiloTitulo {
   text-align: center;
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
+  padding: 1rem;
+  line-height: 3.5rem;
 }
 
 .estiloTitulo {
@@ -116,7 +148,6 @@ footer div ul li a:hover {
 
 /* MIXIN */
 .configImagenes {
-  background-color: #1a7eafda;
   padding: 1rem;
   border-radius: 5rem;
 }

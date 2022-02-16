@@ -1,44 +1,40 @@
 /* **** HEADER ***** */
 
-
 .navbar {
-    background-color: #026394;    
-    width: 100%;
-    
-    li {
-        list-style: none;
+  background-color: #026394;
+  width: 100%;
 
-        a {
-            text-decoration: none;
-            color: #B1D0E0;
-            cursor: pointer;            
-        }
-    }    
-}
+  li {
+    list-style: none;
 
- /* ***footer**** */
-
-.pie{
-    padding-top: 1rem;
-}
-
-footer{
-    div {
-        ul{
-            li {
-                a{
-                text-decoration: none;  
-                cursor: pointer;
-                color: dimgrey;
-
-                &:hover{
-                    color: #B1D0E0;
-                    }
-                }               
-            }
-        }  
+    a {
+      text-decoration: none;
+      color: #b1d0e0;
+      cursor: pointer;
     }
+  }
 }
 
+/* ***footer**** */
 
+.pie {
+  padding-top: 1rem;
+}
 
+footer {
+  div {
+    ul {
+      li {
+        a {
+          text-decoration: none;
+          cursor: pointer;
+          color: dimgrey;
+
+          &:hover {
+            color: #b1d0e0;
+          }
+        }
+      }
+    }
+  }
+}

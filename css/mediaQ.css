@@ -1,27 +1,58 @@
 @media only screen and (max-width: 768px) {
-    .flex-container{
-        flex-direction: column;
-    }
-    .flex-container div{
-        flex-basis: 100%;
-    }
-    
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-container div {
+    flex-basis: 100%;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .movil {
+    display: block;
+  }
+
+  .movil li {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+  }
+
+  .movil img {
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .movil img:hover {
+    transform: scale(1);
+    text-shadow: 13px 15px 37px black;
+  }
+
+  .movil ul li h2 {
+    position: absolute;
+    color: aliceblue;
+    font-size: 5rem;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  }
+
+  .consulta {
+    width: 95%;
+  }
 }
 
 @media only screen and (max-width: 576px) {
-    .flex-container{
-        flex-direction: column;
-    }
-    .flex-container div{
-        flex-basis: 100%;
-    }
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-container div {
+    flex-basis: 100%;
+  }
 
-    .carousel{
-        display: none;
-    }
-    
-    .movil{
-        display: block;
-    }
-    
+  .movil ul li h2 {
+    font-size: 3rem;
+  }
 }
