@@ -28,6 +28,10 @@ $consultas: (
   padding: map-get($consultas, tamMargen);
   border: 0.15rem solid rgb(46, 45, 45);
   border-radius: 1.5rem;
+  margin: auto;
+  margin-top: map-get($consultas, tamMargen);
+  margin-bottom: map-get($consultas, tamMargen);
+  padding: map-get($consultas, tamMargen);
 }
 
 /* EXTEND */

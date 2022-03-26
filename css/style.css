@@ -131,6 +131,9 @@ footer div ul li a:hover {
   padding: 1rem;
   border: 0.15rem solid #2e2d2d;
   border-radius: 1.5rem;
+  margin: auto;
+  
+  padding: 1rem;
 }
 
 /* EXTEND */
@@ -152,3 +155,60 @@ footer div ul li a:hover {
   border-radius: 5rem;
 }
 /*# sourceMappingURL=style.css.map */
+
+/* ESTILOS CARRO DE COMPRA */
+.item {
+  border: .2rem solid #1a7eafda;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.item-title {
+  text-transform: uppercase;
+  color: #026394;
+  text-shadow:.1rem .1rem .8rem #88898a;
+  text-align: center;
+  font-weight: 600;
+}
+
+.item-image {
+  height: 300px;
+  width: 100%;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px 15px;
+}
+
+.item-details > .item-price {
+  margin: 0;
+}
+
+/* ? SHOPPING CART */
+.shopping-cart-items {
+  padding: 20px 0px;
+}
+
+.shopping-cart-header {
+  border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart-image {
+  max-width: 80px;
+  border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+  max-width: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px;
+}
+
+.shopping-cart-total {
+  min-height: 96px;
+}

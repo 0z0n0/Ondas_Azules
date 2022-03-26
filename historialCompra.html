@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
-  <script src="./js/app.js"></script>
+  <script defer src="./js/app.js"></script>
   
     <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/mediaQ.css">
@@ -60,107 +60,53 @@
                 <li><a class="dropdown-item" href="consulta.html">Consultas</a></li>
               </ul>
             </li>
-            <li class="nav-item"><a class="nav-link" href="info.html">Info </a></li>
-            <li class="nav-item"><a class="nav-link" href="historialCompra.html">Historial Compras </a></li>
+            <li class="nav-item"><a class="nav-link" href="info.html">Info </a></li>            
           </ul>
         </div>
       </div>
     </nav>
   </header>
 
-  <!-- slider desktop-->
+  <!-- tabla-->
   <main>
-    <div class="container-fluid mt-3 mb-3">
-      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-
-          <div class="carousel-item active">
-            <img src="./img/colganteBanner.jpg" class="d-block w-100" alt="imagen slider colgante">
-            <div class="carousel-caption d-none d-md-block">
-              <a href="Colgantes.html">
-                <h2>Colgantes</h2>
-              </a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./img/PLlaveBanner.jpg" class="d-block w-100" alt="imagen slider porta llave">
-            <div class="carousel-caption d-none d-md-block">
-              <a href="portallaves.html">
-                <h2>Porta Llaves</h2>
-              </a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./img/PSahumerioBanner.jpg" class="d-block w-100" alt="imagen slider porta sahumerio">
-            <div class="carousel-caption d-none d-md-block fw-bold">
-              <a href="portasahumerio.html">
-                <h2>Porta Sahumerios</h2>
-              </a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./img/PVelaBanner.jpg" class="d-block w-100" alt="imagen slider porta vela">
-            <div class="carousel-caption d-none d-md-block fw-bold">
-              <a href="portavelas.html">
-                <h2>Porta Vela</h2>
-              </a>
-
-            </div>
-          </div>
+    <div class="container-fluid cent">
+      <div class="row justify-content-center">
+        <div class="col-9 text-center">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Producto</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Foto</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previo</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
       </div>
+      
     </div>
 
-
-    <!-- movil -->
-    <div class="container-fluid movil">
-      <ul>
-        <li>
-          <a href="Colgantes.html">
-            <figure>
-              <img class="rounded mx-auto mt-2 d-block img-fluid " src="./img/colganteBanner.jpg"
-                alt="imagen categoria colgantes">
-            </figure>
-          </a>
-          <h2>Colgantes</h2>
-        </li>
-        <li>
-          <a href="portallaves.html">
-            <figure>
-              <img class="rounded mx-auto mt-2 d-block img-fluid " src="./img/PLlaveBanner.jpg"
-                alt="imagen categoria porta llaves">
-            </figure>
-          </a>
-          <h2>Porta Llaves</h2>
-        </li>
-        <li>
-          <a href="portasahumerio.html">
-            <figure>
-              <img class="rounded mx-auto mt-2 d-block img-fluid " src="./img/PSahumerioBanner.jpg"
-                alt="imagen categoria porta sahumerio">
-            </figure>
-          </a>
-          <h2>Porta Sahumerios</h2>
-        </li>
-        <li>
-          <a href="portavelas.html">
-            <figure>
-              <img class="rounded mx-auto mt-2 d-block img-fluid " src="./img/PVelaBanner.jpg"
-                alt="imagen categoria porta velas">
-            </figure>
-          </a>
-          <h2>Porta Velas</h2>
-        </li>
-      </ul>
-    </div>
 
   </main>
 

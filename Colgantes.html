@@ -20,6 +20,9 @@
 
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/mediaQ.css">
+
+  <script defer src="./js/tienda.js"></script>
+
   <title>Ondas Azules - Colgastes</title>
 </head>
 
@@ -69,7 +72,7 @@
 
   <main>
     <!-- Gallery -->
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
       <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
         class="row mt-5">
         <div class="col-lg-4 mb-4 mb-lg-0">
@@ -129,7 +132,168 @@
             alt="imagen colgante 12" />
         </div>
       </div>
-    </div>
+    </div> -->
+<!-- START TEST -->
+<section class="store">
+  <div class="container-fluid">
+      <div class="items">
+          <div class="row all">
+              <div class="col-12 col-md-4">
+                  <div class="item shadow mb-4">
+                      <h3 class="item-title">Lakshmi</h3>
+
+                      <img class="item-image" src="./img/colgantes/colgante1.jpg" alt="mandala Lakshmi">
+
+                      <div class="item-details">
+                          <h4 class="item-price">$1000</h4>
+                          <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4">
+                  <div class="item shadow mb-4">
+                      <h3 class="item-title">Latika</h3>
+
+                      <img class="item-image" src="./img/colgantes/colgante2.jpg" alt="mandala Latika">
+
+                      <div class="item-details">
+                          <h4 class="item-price">$999</h4>
+                          <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4">
+                  <div class="item shadow mb-4">
+                      <h3 class="item-title">Lavanya</h3>
+
+                      <img class="item-image" src="./img/colgantes/colgante4.jpg" alt="mandala Lavanya">
+                      <div class="item-details">
+                          <h4 class="item-price">$899</h4>
+                          <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4">
+                  <div class="item shadow mb-4">
+                      <h3 class="item-title">Leya</h3>
+
+                      <img class="item-image" src="./img/colgantes/colgante5.jpg" alt="mandala Leya">
+                      <div class="item-details">
+                          <h4 class="item-price">$899</h4>
+                          <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4">
+                  <div class="item shadow mb-4">
+                      <h3 class="item-title">Marala</h3>
+
+                      <img class="item-image" src="./img/colgantes/colgante3.jpg" alt="mandala Marala">
+                      <div class="item-details">
+                          <h4 class="item-price">$999</h4>
+                          <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-4">
+                  <div class="item shadow mb-4">
+                      <h3 class="item-title">Meena</h3>
+
+                      <img class="item-image" src="./img/colgantes/colgante2.jpg" alt="mandala Meena">
+                      <div class="item-details">
+                          <h4 class="item-price">$1099</h4>
+                          <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                      </div>
+                  </div>
+              </div>
+          </div>                
+      </div>
+  </div>
+</section>
+
+<!-- START SECTION SHOPPING CART -->
+<section class="shopping-cart">
+  <div class="container">
+      <h1 class="text-center">CARRITO</h1>
+      <hr>
+      <div class="row">
+          <div class="col-6">
+              <div class="shopping-cart-header">
+                  <h6>Producto</h6>
+              </div>
+          </div>
+          <div class="col-2">
+              <div class="shopping-cart-header">
+                  <h6 class="text-truncate">Precio</h6>
+              </div>
+          </div>
+          <div class="col-4">
+              <div class="shopping-cart-header">
+                  <h6>Cantidad</h6>
+              </div>
+          </div>
+      </div>
+      <!-- ? START SHOPPING CART ITEMS -->
+      <div class="shopping-cart-items shoppingCartItemsContainer">
+      </div>
+      <!-- ? END SHOPPING CART ITEMS -->
+
+      <!-- START TOTAL -->
+      <div class="row">
+          <div class="col-12">
+              <div class="shopping-cart-total d-flex align-items-center">
+                  <p class="mb-0">Total</p>
+                  <p class="ml-4 mb-0 shoppingCartTotal">$0</p>
+                  <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+                      data-delay="2000">
+                      <div class="toast-header">
+                          <span>✅</span>
+                          <strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
+                          <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="toast-body text-white">
+                          Se aumentó correctamente la cantidad
+                      </div>
+                  </div>
+                  <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                      data-target="#comprarModal">Comprar</button>
+              </div>
+          </div>
+      </div>
+
+      <!-- END TOTAL -->
+
+      <!-- START MODAL COMPRA -->
+      <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="comprarModalLabel">Gracias por su compra</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                      </button>
+                  </div>
+                  <div class="modal-body">
+                      <p>Pronto recibirá su pedido</p>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- END MODAL COMPRA -->
+
+
+  </div>
+
+</section>
+<!-- END SECTION SHOPPING CART -->
+
+<!-- END TEST -->
 
   </main>
 
