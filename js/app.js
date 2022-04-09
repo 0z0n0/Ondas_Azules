@@ -1,14 +1,4 @@
-/* function bienvenida (){    
-    if (localStorage.getItem("nombreUsuario")){
-        alert("bienvenido "+ localStorage.getItem("nombreUsuario"))
-        }else{
-            let usuario = prompt("Ingrese su nombre","")
-        if(usuario != ""){
-            localStorage.setItem("nombreUsuario", usuario)
-            alert ('Gracias por registrarte '+ usuario)
-        }            
-    }
-} */
+
 const loginButton = document.querySelector('.login');
 loginButton.addEventListener('click', login);
 const registerButton = document.querySelector('.register');
@@ -17,8 +7,8 @@ registerButton.addEventListener('click', register);
 function login(){
     debugger
     const user = JSON.parse(localStorage.getItem("User"))
-    const usuario = document.getElementById("user").value
-    const password = document.getElementById("password").value
+    const usuario = document.getElementById("userLogin").value
+    const password = document.getElementById("passwordLogin").value
     if (user.usuario == usuario && user.password == password) {
         console.log("login ok")
         Toastify({
@@ -39,8 +29,8 @@ function login(){
 
 function register(){
     const user ={
-        usuario : document.getElementById("user").value,
-        password : document.getElementById("password").value,
+        usuario : document.getElementById("userLogin").value,
+        password : document.getElementById("passwordLogin").value,
     }
     localStorage.setItem("User", JSON.stringify(user));
     Toastify({
@@ -55,9 +45,3 @@ function register(){
       }).showToast();
       setTimeout( function() { window.location.href = "index.html"; }, 2500 );
 }
-
-/* bienvenida() */
-
-
-
-

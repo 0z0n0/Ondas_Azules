@@ -1,0 +1,27 @@
+[
+    {
+        "nombre": "colorido",
+        "material": "vidrio",
+        "pintura": "laca vitrale",
+        "imagen": "./img/colgantes/colgante1.jpg"
+    },
+    {
+        "nombre": "colorido",
+        "material": "vidrio",
+        "pintura": "laca vitrale",
+        "imagen": "./img/colgantes/colgante2.jpg"
+    },
+    {
+        "nombre": "colorido",
+        "material": "vidrio",
+        "pintura": "laca vitrale",
+        "imagen": "./img/colgantes/colgante3.jpg"
+    },
+    {
+        "nombre": "colorido",
+        "material": "vidrio",
+        "pintura": "laca vitrale",
+        "imagen": "./img/colgantes/colgante4.jpg"
+    }
+        
+]
