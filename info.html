@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
-   <script src="./js/ajax.js"></script> 
+   <script defer src="./js/ajax.js"></script>  
 
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/mediaQ.css">
@@ -71,7 +71,7 @@
 
 
   <main>
-    <div class="flex-container">
+    <div class="flex-container mb-5">
       <div class="Historia">
         <h1 class="text-reset fw-bold estiloTitulo">HISTORIA</h1>
         <p class="estiloParrafo">La relación entre el falso-vitral y yo nace alrededor del 2016, donde a partir de un
@@ -87,28 +87,19 @@
         </p>
       </div>
       <div class="configImagenes">
-        <img src="./img/banner historia.jpg" alt="colage imagen">
+        <img src="./img/banner historia.jpg"  alt="colage imagen">
       </div>
-    </div>
-    <div class="clientes text-center" id="clientes">
-      <!-- se va a completar dinamicamente mediante FETCH-->
-      <div class="container mt-4 shadow-lg p-3 mb-5 rounded">
-        <h2 class="text-uppercase fs-2 fw-bolder">Algunos de nuestros clientes conformes !!</h2>
-        <table class="table table-bordered table-striped">
-            <thead>
-                <tr>                    
-                    <th>NOMBRE</th>
-                    <th>EMAIL</th>
-                </tr>
-            </thead>
-            <tbody id="data">
-
-            </tbody>
-
-        </table>
-
-    </div>
-    </div>
+    </div>        
+    <!-- USO DE FETCH -->    
+    <div class="container-fluid mt-5">
+      <h2 class="text-uppercase fs-2 fw-bolder text-center mb-3">Informacion importante sobre nuestros productos</h2>
+        <div class="items">
+            <div class="row all" id="colgantes">
+                <!-- se va a completar dinamicamente mediante FETCH-->
+            </div>                
+        </div>
+    </div>   
+    <!-- USO API MAPS GOOGLE -->
     <div class="mapa">
       <h2 class="text-reset fw-bold">Vení a visitarnos en la Plaza Montenegro</h2>
       <iframe
