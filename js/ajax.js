@@ -19,7 +19,8 @@ const mostrarData = (data) => {
     document.getElementById('data').innerHTML = body
 } */
 
-let url2 = 'info.json'
+/* let url2 = 'info.json' */
+let url2 = 'http://127.0.0.1:5501/info.json'
 fetch(url2)
     .then(response => response.json())
     .then(data2 => mostrarData2(data2))

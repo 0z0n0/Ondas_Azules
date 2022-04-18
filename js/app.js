@@ -5,7 +5,7 @@ const registerButton = document.querySelector('.register');
 registerButton.addEventListener('click', register);
 
 function login(){
-    debugger
+    //debugger
     const user = JSON.parse(localStorage.getItem("User"))
     const usuario = document.getElementById("userLogin").value
     const password = document.getElementById("passwordLogin").value
@@ -28,6 +28,7 @@ function login(){
 }
 
 function register(){
+  console.log("me estan llamando")
     const user ={
         usuario : document.getElementById("userLogin").value,
         password : document.getElementById("passwordLogin").value,

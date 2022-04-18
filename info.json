@@ -10,7 +10,7 @@
         "nombre": "Latika",
         "material": "vidrio",
         "pintura": "laca vitrale",
-        "imagen": "../img/colgantes/colgante3.jpg",
+        "imagen": "./img/colgantes/colgante3.jpg",
         "precio": 1300
     },
     {
@@ -35,95 +35,95 @@
         "precio": 999
     },
     {
-        "nombre": "Marala",
+        "nombre": "Space Moon",
         "material": "vidrio",
         "pintura": "laca vitrale",
         "imagen": "./img/colgantes/colgante7.jpg",
         "precio": 999
     },
     {
-        "nombre": "Marala",
+        "nombre": "Mared",
         "material": "vidrio",
         "pintura": "laca vitrale",
         "imagen": "./img/colgantes/colgante8.jpg",
         "precio": 999
     },
     {
-        "nombre": "Marala",
+        "nombre": "Bird",
         "material": "vidrio",
         "pintura": "laca vitrale",
         "imagen": "./img/colgantes/colgante9.jpg",
         "precio": 999
     },
     {
-        "nombre": "Marala",
+        "nombre": "Lion King",
         "material": "vidrio",
         "pintura": "laca vitrale",
         "imagen": "./img/colgantes/colgante10.jpg",
         "precio": 999
     },
     {
-        "nombre": "Marala",
+        "nombre": "Mixglass",
         "material": "espejo",
         "pintura": "laca vitrale",
         "imagen": "./img/colgantes/colgante11.jpg",
         "precio": 999
     },
     {
-        "nombre": "Marala",
+        "nombre": "Power woman",
         "material": "espejo",
         "pintura": "laca vitrale",
         "imagen": "./img/colgantes/colgante12.jpg",
         "precio": 999
     },
     {
-        "nombre": "Marala",
+        "nombre": "Be infinite",
         "material": "espejo",
         "pintura": "laca vitrale",
         "imagen": "./img/colgantes/colgante13.jpg",
         "precio": 999
     },
     {
-        "nombre": "Marala",
+        "nombre": "Marlue",
         "material": "vidrio",
         "pintura": "laca vitrale",
         "imagen": "./img/colgantes/colgante14.jpg",
         "precio": 999
     },
     {
-        "nombre": "Marala",
+        "nombre": "Flower",
         "material": "espejo",
         "pintura": "laca vitrale",
         "imagen": "./img/colgantes/colgante15.jpg",
         "precio": 999
     },
     {
-        "nombre": "Marala",
+        "nombre": "Colors",
         "material": "espejo",
         "pintura": "laca vitrale",
         "imagen": "./img/colgantes/colgante16.jpg",
         "precio": 999
     },    
     {
-        "nombre": "Marala",
+        "nombre": "Sun",
         "material": "vidrio",
         "pintura": "laca vitrale",
         "imagen": "./img/colgantes/colgante18.jpg",
         "precio": 999
     },
     {
-        "nombre": "Marala",
+        "nombre": "Mariolet",
         "material": "vidrio",
         "pintura": "laca vitrale",
         "imagen": "./img/colgantes/colgante19.jpg",
         "precio": 999
     },
     {
-        "nombre": "Meena",
+        "nombre": "Meena ",
         "material": "espejo",
         "pintura": "laca vitrale",
         "imagen": "./img/colgantes/colgante6.jpg",
-        "precio": 1000
+        "precio": 1300
     }
         
 ]
